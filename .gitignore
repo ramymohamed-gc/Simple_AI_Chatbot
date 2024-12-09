@@ -24,7 +24,7 @@ ENV/
 
 # Ignore logs and local environment settings
 *.log
-*.env
+# *.env
 *.local
 
 # Python virtual environment/egg files
