@@ -1,0 +1,48 @@
+# Ignore Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Ignore environment variables file
+# .env
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode specific settings
+.vscode/
+
+# macOS specific files
+.DS_Store
+
+# Ignore logs and local environment settings
+*.log
+*.env
+*.local
+
+# Python virtual environment/egg files
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# PyInstaller
+*.spec
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.tox/
+.cache/
+nosetests.xml
+coverage.xml
+
+# Ignore compiled C extensions
+*.so

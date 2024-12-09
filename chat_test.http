@@ -1,0 +1,16 @@
+POST https://ai-model-test.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-07-01-preview
+Content-Type: application/json
+api-key: sk-abcdefghijklmnopqrstuvwx1234567890abcdef
+
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a virtual AI agent that assists users with their questions. Provide helpful, concise, and friendly answers."
+    },
+    {
+      "role": "user",
+      "content": "Hello! What is AI?"
+    }
+  ]
+}
